@@ -81,11 +81,11 @@ let trimmedString = inputString.trim();
 let replacedString = inputString.replace("JavaScript", "coding");
 
 // // 3. Breaking Apart
-// let wordsArray; // Your code here
+let wordsArray = inputString.split(" ");
 
 // // 4. Retrieving
-// let firstCharacter; // Your code here
-// let extractedBootcamp; // Your code here
+let firstCharacter = trimmedString.charAt(0);
+let extractedBootcamp = inputString.slice(24,32);
 
 // Log all results
 console.log({
@@ -97,7 +97,7 @@ console.log({
   uppercaseString,
   trimmedString,
   replacedString,
-  // wordsArray,
-  // firstCharacter,
-  // extractedBootcamp,
+  wordsArray,
+  firstCharacter,
+  extractedBootcamp,
 });
