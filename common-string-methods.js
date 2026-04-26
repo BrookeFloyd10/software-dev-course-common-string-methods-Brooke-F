@@ -75,10 +75,10 @@ let startsWithWelcome = inputString.startsWith("Welcome", [0]);
 let endsWithToday = inputString.endsWith("today.");
 
 // // 2. Transforming
-// let lowercaseString; // Your code here
-// let uppercaseString; // Your code here
-// let trimmedString; // Your code here
-// let replacedString; // Your code here
+let lowercaseString = inputString.toLowerCase();
+let uppercaseString = inputString.toUpperCase();
+let trimmedString = inputString.trim();
+let replacedString = inputString.replace("JavaScript", "coding");
 
 // // 3. Breaking Apart
 // let wordsArray; // Your code here
@@ -93,10 +93,10 @@ console.log({
   codingPosition,
   startsWithWelcome,
   endsWithToday,
-  // lowercaseString,
-  // uppercaseString,
-  // trimmedString,
-  // replacedString,
+  lowercaseString,
+  uppercaseString,
+  trimmedString,
+  replacedString,
   // wordsArray,
   // firstCharacter,
   // extractedBootcamp,
